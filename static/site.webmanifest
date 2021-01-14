@@ -1,0 +1,25 @@
+{
+    "name": "Сбербанк",
+    "short_name": "Сбербанк",
+    "start_url": "/ru/person?utm_source=a2hs",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "description": "",
+    "icons": [
+        {
+            "src": "/portalserver/static/templates/%5BBBHOST%5D/RuMasterpageTemplate/@ref(!file-loader?name=static/[name].[ext]!./android-chrome-192x192.png)",
+            "sizes": "192x192",
+            "type": "image/png",
+            "density": 4,
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/portalserver/static/templates/%5BBBHOST%5D/RuMasterpageTemplate/@ref(!file-loader?name=static/[name].[ext]!./android-chrome-512x512.png)",
+            "sizes": "512x512",
+            "type": "image/png",
+            "density": 5,
+            "purpose": "any maskable"
+        }
+    ]
+}
